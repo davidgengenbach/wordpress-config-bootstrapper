@@ -1,0 +1,19 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "commander": "^2.8.1",
+    "ftp": "^0.3.10",
+    "ftpsync": "^0.1.7",
+    "ramda": "^0.17.1"
+  }
+}

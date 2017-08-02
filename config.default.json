@@ -1,0 +1,36 @@
+{
+    "db": {
+        "local": {
+            "host": "localhost",
+            "name": "wp_db",
+            "port": 3306,
+            "username": "root",
+            "password": "pw"
+        },
+        "remote": {
+            "host": "localhost",
+            "name": "wp_db",
+            "port": 3306,
+            "username": "root",
+            "password": "pw"
+        }
+    },
+    "domain": {
+        "local": "site.dev",
+        "remote": "site.de"
+    },
+    "ftp": {
+        "local": "../../site",
+        "remote": "httpdocs",
+        "host": "host",
+        "port": 21,
+        "user": "user",
+        "pass": "password",
+        "password": "password",
+        "connections": "2",
+        "ignore": [".git", "tmp/*", ".DS_Store", "*.less.cache", "__MACOSX"]
+    },
+    "utils": {
+       "dbUtilsPath": "db"
+    }
+}

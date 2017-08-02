@@ -1,0 +1,4 @@
+config.json
+dest/
+bck/
+node_modules
